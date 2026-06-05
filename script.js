@@ -186,6 +186,7 @@ const supplementalTranslations = {
 });
 
 Object.assign(supplementalTranslations.ko, {
+  "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "고정밀 CNC 가공, 맞춤 부품 및 그룹형 제조 납품에 집중합니다.",
   "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "복잡한 부품을 위한 반복 가능한 납품 기준을 구축하는 중국 정밀 가공 공장",
   "CNC 加工经验": "CNC 가공 전문성",
   "全球项目服务": "글로벌 프로젝트 서비스",
@@ -220,6 +221,10 @@ Object.assign(supplementalTranslations.ko, {
 });
 
 Object.assign(supplementalTranslations.ja, {
+  "恒睿精工集团": "Hengrui Precision Group",
+  "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "高精度 CNC 加工、カスタム部品、グループ型製造納品に注力しています。",
+  "© 2026 恒睿精工集团 版权所有": "© 2026 Hengrui Precision Group. All rights reserved.",
+  "常见问题 | 恒睿精工集团": "FAQ | Hengrui Precision Group",
   "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "複雑部品に再現性のある納品基準を構築する中国の精密加工工場",
   "CNC 加工经验": "CNC 加工の専門性",
   "全球项目服务": "グローバルプロジェクトサービス",
@@ -254,6 +259,7 @@ Object.assign(supplementalTranslations.ja, {
 });
 
 Object.assign(supplementalTranslations.es, {
+  "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "Enfocados en mecanizado CNC de alta precisión, piezas personalizadas y entrega de fabricación de grupo.",
   "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "Fábrica china de mecanizado de precisión que crea estándares repetibles para piezas complejas",
   "CNC 加工经验": "Experiencia en mecanizado CNC",
   "全球项目服务": "Servicio global de proyectos",
@@ -287,8 +293,256 @@ Object.assign(supplementalTranslations.es, {
   "江苏省苏州市工业园区智造路 88 号恒睿精工中心": "Centro Hengrui Precision, No. 88 Zhizao Road, Parque Industrial de Suzhou, Jiangsu, China"
 });
 
+Object.assign(supplementalTranslations.ko, {
+  "恒睿精工集团 | CNC 机加工与定制制造": "헝루이 정밀 그룹 | CNC 가공 및 맞춤 제조",
+  "集团工厂视觉": "그룹 공장 이미지",
+  "ISO 9001 / IATF 16949 体系化制造服务商": "ISO 9001 / IATF 16949 체계형 제조 서비스 파트너",
+  "中英双语工程对接，覆盖打样、小批量和量产订单。": "중국어와 영어 엔지니어링 대응으로 시제품, 소량, 양산 주문을 지원합니다.",
+  "CMM、影像仪、粗糙度仪与全流程检验记录。": "CMM, 영상 측정기, 조도계 및 전 공정 검사 기록.",
+  "按 ISO、RoHS、REACH 与客户行业规范组织交付。": "ISO, RoHS, REACH 및 고객 산업 규격에 따라 납품을 관리합니다.",
+  "处理复杂曲面、航空结构件和医疗器械零件。": "복잡한 곡면, 항공 구조 부품 및 의료기기 부품에 적합합니다.",
+  "快速切割、标识、序列号与追溯编码。": "빠른 절단, 마킹, 일련번호 및 추적 코딩.",
+  "阳极氧化、电镀、喷砂、钝化、喷粉与抛光。": "아노다이징, 도금, 샌드블라스트, 패시베이션, 분체도장 및 폴리싱.",
+  "从 1 件样品到 10,000 件规模化交付。": "시제품 1개부터 10,000개 규모 납품까지 지원합니다.",
+  "发送图纸": "도면 보내기",
+  "上传 2D/3D 文件与技术要求": "2D/3D 파일과 기술 요구사항 업로드",
+  "工程评审": "엔지니어링 검토",
+  "DFM 建议、材料与工艺确认": "DFM 제안, 소재 및 공정 확인",
+  "报价排期": "견적 및 일정",
+  "明确单价、交期与检测方案": "단가, 납기 및 검사 방안 확정",
+  "生产制造": "생산 제조",
+  "按工艺卡和检验点执行": "공정 카드와 검사 포인트에 따라 실행",
+  "检验交付": "검사 및 납품",
+  "包装、防护、报告与物流跟踪": "포장, 보호, 보고서 및 물류 추적",
+  "6061、7075、5052，适合轻量化壳体与散热结构。": "6061, 7075, 5052는 경량 하우징과 방열 구조에 적합합니다.",
+  "304、316L、17-4PH，适合耐腐蚀和高强度零件。": "304, 316L, 17-4PH는 내식성과 고강도 부품에 적합합니다.",
+  "无人机、机器人和运动器材结构件定制加工。": "드론, 로봇 및 스포츠 장비 구조 부품 맞춤 가공.",
+  "汽车与新能源零部件": "자동차 및 신에너지 부품",
+  "机器人与自动化设备": "로봇 및 자동화 장비",
+  "电子半导体装备": "전자 및 반도체 장비",
+  "能源与工业设备": "에너지 및 산업 장비",
+  "五轴加工如何降低复杂零件装夹误差": "5축 가공이 복잡 부품의 클램핑 오차를 줄이는 방법",
+  "工程团队分享典型项目中的工艺优化经验。": "엔지니어링 팀이 대표 프로젝트의 공정 최적화 경험을 공유합니다.",
+  "铝件阳极氧化前需要注意什么": "알루미늄 부품 아노다이징 전 주의사항",
+  "从材料、纹理、尺寸补偿到外观验收。": "소재, 표면 질감, 치수 보정부터 외관 검수까지 고려합니다.",
+  "集团新检测中心投入使用": "그룹 신규 검사 센터 가동",
+  "CMM 与全尺寸检测能力进一步扩充。": "CMM 및 전 치수 검사 역량을 추가로 확충했습니다.",
+  "小批量试产项目交付周期说明": "소량 시험 생산 프로젝트 납기 안내",
+  "帮助采购和研发团队合理规划样件节点。": "구매 및 R&D 팀이 시제품 일정을 합리적으로 계획하도록 돕습니다.",
+  "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "고정밀 CNC 가공, 맞춤 부품 및 그룹형 제조 납품에 집중합니다.",
+  "以 CNC 加工为核心，整合钣金、表面处理、装配和检测，帮助客户缩短新品导入周期。": "CNC 가공을 중심으로 판금, 표면처리, 조립 및 검사를 통합하여 고객의 신제품 도입 기간을 단축합니다.",
+  "三轴、四轴、五轴、车铣复合，公差可按 ±0.01mm 项目要求评估。": "3축, 4축, 5축 및 복합 선삭·밀링을 지원하며 공차는 프로젝트 요구에 따라 ±0.01mm까지 평가할 수 있습니다.",
+  "支持研发验证、功能样件、外观样件和试产件快速交付。": "R&D 검증품, 기능 시제품, 외관 시제품 및 시험 생산품의 빠른 납품을 지원합니다.",
+  "钣金结构件": "판금 구조 부품",
+  "激光切割、折弯、焊接、铆接、喷粉和装配一体化。": "레이저 절단, 절곡, 용접, 리벳팅, 분체도장 및 조립 통합 서비스.",
+  "阳极氧化、硬质氧化、喷砂、电镀、钝化、发黑、拉丝和抛光。": "아노다이징, 경질 아노다이징, 샌드블라스트, 도금, 패시베이션, 흑착색, 헤어라인 및 폴리싱.",
+  "首件、巡检、终检、FAI、尺寸报告和材料证明文件。": "초도품 검사, 공정 검사, 최종 검사, FAI, 치수 보고서 및 소재 증명서.",
+  "按客户包装、标签、报关和物流要求，交付到中国、欧洲、北美和东南亚。": "고객의 포장, 라벨, 통관 및 물류 요구에 따라 중국, 유럽, 북미, 동남아로 납품합니다.",
+  "工程协同先于生产": "생산 전 엔지니어링 협업",
+  "提交加工需求": "가공 요구 제출",
+  "把图纸交给工程团队评审": "엔지니어링 팀에 도면 검토 요청",
+  "通常 24 小时内反馈工艺建议和初步报价。": "보통 24시간 내 공정 제안과 예비 견적을 제공합니다.",
+  "立即联系": "지금 문의",
+  "常用材料库存与指定牌号采购": "일반 소재 재고 및 지정 등급 구매",
+  "覆盖金属、塑料、复材与高性能合金": "금속, 플라스틱, 복합재 및 고성능 합금 지원",
+  "我们根据零件性能、表面要求、成本目标和交期，为客户匹配合适材料与工艺组合。": "부품 성능, 표면 요구, 비용 목표 및 납기에 따라 적합한 소재와 공정 조합을 제안합니다.",
+  "6061、6082、7075、2024、5052，适合轻量化结构件与外观件。": "6061, 6082, 7075, 2024, 5052는 경량 구조 부품과 외관 부품에 적합합니다.",
+  "45#、Q235、4140、304、316L、17-4PH，兼顾强度与耐腐蚀。": "45#, Q235, 4140, 304, 316L, 17-4PH는 강도와 내식성을 모두 고려합니다.",
+  "C1100、H59、H62、铍铜，用于导电、导热和精密连接件。": "C1100, H59, H62, 베릴륨동은 전도, 방열 및 정밀 연결 부품에 사용됩니다.",
+  "POM、PA、PEEK、PC、ABS、PTFE，适合绝缘、耐磨和轻量应用。": "POM, PA, PEEK, PC, ABS, PTFE는 절연, 내마모 및 경량 용도에 적합합니다.",
+  "钛合金与镍基合金": "티타늄 합금 및 니켈 기반 합금",
+  "TC4、Inconel 等高性能材料按项目评估刀具与加工策略。": "TC4, Inconel 등 고성능 소재는 프로젝트별로 공구와 가공 전략을 평가합니다.",
+  "适合无人机、机器人、医疗支架和高刚性轻量化结构件。": "드론, 로봇, 의료 브래킷 및 고강성 경량 구조 부품에 적합합니다.",
+  "材料文件与追溯": "소재 문서 및 추적성",
+  "可按客户要求提供材质证明、RoHS/REACH 声明、热处理记录和表面处理批次文件。": "고객 요구에 따라 소재 증명서, RoHS/REACH 선언, 열처리 기록 및 표면처리 배치 문서를 제공할 수 있습니다.",
+  "服务研发、采购、设备与供应链团队": "R&D, 구매, 장비 및 공급망 팀 지원",
+  "为高要求行业提供稳定的零部件制造能力": "고요구 산업을 위한 안정적인 부품 제조 역량",
+  "不同领域对尺寸、外观、清洁度、材料和文件要求不同，我们按行业场景组织项目管理。": "산업별로 치수, 외관, 청정도, 소재 및 문서 요구가 다르기 때문에 적용 분야별로 프로젝트를 관리합니다.",
+  "电池包结构件、夹具、传感器壳体、热管理零件。": "배터리 팩 구조 부품, 지그, 센서 하우징 및 열관리 부품.",
+  "末端执行器、关节结构件、导轨滑块、设备框架。": "엔드 이펙터, 관절 구조 부품, 가이드 슬라이더 및 장비 프레임.",
+  "设备结构件、仪器支架、微流控夹具、洁净包装需求。": "장비 구조 부품, 기기 브래킷, 미세유체 지그 및 클린 포장 요구.",
+  "治具、载具、散热件、定位板和高洁净零部件。": "지그, 캐리어, 방열 부품, 위치결정판 및 고청정 부품.",
+  "能源与电力": "에너지 및 전력",
+  "储能结构件、连接件、绝缘件、风电与光伏设备部件。": "에너지 저장 구조 부품, 연결 부품, 절연 부품, 풍력 및 태양광 장비 부품.",
+  "泵阀零件、传动部件、非标机械和备件国产化。": "펌프·밸브 부품, 구동 부품, 비표준 장비 및 예비품 국산화.",
+  "集团化制造 · 工程化交付 · 全球化服务": "그룹 제조 · 엔지니어링 납품 · 글로벌 서비스",
+  "恒睿精工集团是一家虚拟示例机加工集团，专注为全球 B2B 客户提供精密零件定制制造服务。": "헝루이 정밀 그룹은 글로벌 B2B 고객에게 정밀 부품 맞춤 제조 서비스를 제공하는 예시 가공 그룹입니다.",
+  "年精密制造经验": "년 정밀 제조 경험",
+  "台 CNC 与配套设备": "대 CNC 및 부대 설비",
+  "个国家和地区客户": "개 국가 및 지역 고객",
+  "年度准时交付率": "연간 정시 납품률",
+  "我们希望成为研发型企业和装备制造企业背后的长期制造伙伴。集团通过统一的工程评审、生产计划、质量标准和供应链管理，把多工艺、多材料、多批次订单变成可预测的交付结果。": "우리는 연구개발형 기업과 장비 제조 기업의 장기 제조 파트너가 되고자 합니다. 통합된 엔지니어링 검토, 생산 계획, 품질 기준 및 공급망 관리를 통해 다공정, 다소재, 다배치 주문을 예측 가능한 납품 결과로 만듭니다.",
+  "示例文案可后续替换为你的真实工厂规模、设备清单、认证证书、客户案例和团队照片。": "예시 문구는 추후 실제 공장 규모, 장비 목록, 인증서, 고객 사례 및 팀 사진으로 교체할 수 있습니다.",
+  "从单一加工车间到多工艺协同制造平台。": "단일 가공 작업장에서 다공정 협업 제조 플랫폼으로 성장했습니다.",
+  "创立 CNC 加工事业部，服务本地自动化设备客户。": "CNC 가공 사업부를 설립하여 현지 자동화 장비 고객을 지원했습니다.",
+  "建立质量检测中心，引入三坐标与首件报告流程。": "품질 검사 센터를 구축하고 CMM 및 초도품 보고 프로세스를 도입했습니다.",
+  "成立海外项目组，支持英文图纸、出口包装和国际物流。": "해외 프로젝트 팀을 구성하여 영어 도면, 수출 포장 및 국제 물류를 지원합니다.",
+  "升级集团网站与数字化询价流程，提升客户线索响应效率。": "그룹 웹사이트와 디지털 견적 프로세스를 업그레이드하여 고객 문의 응답 효율을 높였습니다.",
+  "制造知识、集团动态与项目经验": "제조 지식, 그룹 소식 및 프로젝트 경험",
+  "洞察精密制造，记录集团成长": "정밀 제조를 통찰하고 그룹 성장을 기록합니다",
+  "这里展示集团动态、工艺文章和客户常关心的加工知识，后续可接入真实 CMS。": "이곳에는 그룹 소식, 공정 글 및 고객이 자주 묻는 가공 지식을 보여주며 추후 실제 CMS와 연동할 수 있습니다.",
+  "2026-05-18 · 多面加工减少重复定位，适合复杂曲面和高精度结构件。": "2026-05-18 · 다면 가공은 반복 위치결정을 줄여 복잡한 곡면과 고정밀 구조 부품에 적합합니다.",
+  "阳极氧化前的设计注意事项": "아노다이징 전 설계 주의사항",
+  "2026-04-26 · 外观件需要提前考虑膜厚、遮蔽、批次色差与挂点。": "2026-04-26 · 외관 부품은 막 두께, 마스킹, 배치 색차 및 걸이 위치를 미리 고려해야 합니다.",
+  "检测中心完成设备升级": "검사 센터 장비 업그레이드 완료",
+  "2026-03-12 · 新增自动影像测量仪和粗糙度检测能力。": "2026-03-12 · 자동 영상 측정기와 조도 검사 역량을 추가했습니다.",
+  "小批量试产交期如何评估": "소량 시험 생산 납기 평가 방법",
+  "2026-02-20 · 交期由材料、工艺、表面处理和检测文件共同决定。": "2026-02-20 · 납기는 소재, 공정, 표면처리 및 검사 문서에 의해 결정됩니다.",
+  "报价、交期、质量与材料常见问题": "견적, 납기, 품질 및 소재 관련 자주 묻는 질문",
+  "如果你准备询价，建议同时提供 3D 文件、2D 图纸、材料、数量、表面处理和目标交期。": "견적을 원하시면 3D 파일, 2D 도면, 소재, 수량, 표면처리 및 목표 납기를 함께 제공해 주세요.",
+  "你们能做到什么加工精度？": "어떤 가공 정밀도를 달성할 수 있나요?",
+  "常规 CNC 加工可按 ±0.05mm 控制，关键尺寸可根据结构、材料和检测方式评估到 ±0.01mm。最终以图纸和工程评审结论为准。": "일반 CNC 가공은 ±0.05mm 수준으로 관리할 수 있으며 핵심 치수는 구조, 소재 및 검사 방식에 따라 ±0.01mm까지 평가할 수 있습니다. 최종 기준은 도면과 엔지니어링 검토 결과를 따릅니다.",
+  "报价需要哪些资料？": "견적에 필요한 자료는 무엇인가요?",
+  "建议提供 STEP/STP、IGES、X_T 或 SolidWorks 文件，另附 PDF/DWG 图纸、数量、材料、表面处理、检测要求和交付地址。": "STEP/STP, IGES, X_T 또는 SolidWorks 파일과 PDF/DWG 도면, 수량, 소재, 표면처리, 검사 요구사항 및 납품 주소를 제공해 주세요.",
+  "典型交期多久？": "일반 납기는 얼마나 걸리나요?",
+  "简单样件通常 3-7 个工作日，复杂零件或含表面处理项目通常 7-15 个工作日，批量订单会根据排产和检验要求确认。": "간단한 시제품은 보통 3-7영업일, 복잡한 부품이나 표면처리 포함 프로젝트는 보통 7-15영업일이 소요됩니다. 양산 주문은 생산 일정과 검사 요구에 따라 확정됩니다.",
+  "能否签保密协议？": "비밀유지계약을 체결할 수 있나요?",
+  "可以。我们可与客户签署 NDA，并按项目权限管理图纸、报价、检测报告和生产资料。": "가능합니다. 고객과 NDA를 체결하고 프로젝트 권한에 따라 도면, 견적, 검사 보고서 및 생산 자료를 관리합니다.",
+  "留言后怎么联系我？": "문의 후 어떻게 연락하나요?",
+  "你在联系页留下姓名、电话、邮箱和需求后，项目团队会通过电话、微信或邮件与你确认图纸、数量、材料和交期。": "문의 페이지에 이름, 전화, 이메일 및 요구사항을 남기면 프로젝트 팀이 전화, 위챗 또는 이메일로 도면, 수량, 소재 및 납기를 확인합니다.",
+  "24 小时内响应项目询价": "프로젝트 문의 24시간 내 응답",
+  "服务时间": "서비스 시간",
+  "周一至周六 08:30-18:00": "월요일부터 토요일 08:30-18:00",
+  "海外项目可预约视频会议或英文邮件沟通。": "해외 프로젝트는 화상회의 또는 영어 이메일 상담이 가능합니다.",
+  "建议上传资料": "권장 제출 자료",
+  "3D 文件、2D 图纸、材料、数量、表面处理、检测要求和目标交期。": "3D 파일, 2D 도면, 소재, 수량, 표면처리, 검사 요구사항 및 목표 납기."
+});
+
+Object.assign(supplementalTranslations.es, {
+  "恒睿精工集团 | CNC 机加工与定制制造": "Grupo Hengrui Precision | Mecanizado CNC y fabricación personalizada",
+  "集团工厂视觉": "Imagen de fábrica del grupo",
+  "ISO 9001 / IATF 16949 体系化制造服务商": "Proveedor de fabricación sistemática ISO 9001 / IATF 16949",
+  "中英双语工程对接，覆盖打样、小批量和量产订单。": "Soporte técnico bilingüe chino-inglés para prototipos, lotes pequeños y producción en serie.",
+  "CMM、影像仪、粗糙度仪与全流程检验记录。": "CMM, medición por visión, rugosímetro y registros de inspección de todo el proceso.",
+  "按 ISO、RoHS、REACH 与客户行业规范组织交付。": "Entrega organizada conforme a ISO, RoHS, REACH y normas del sector del cliente.",
+  "处理复杂曲面、航空结构件和医疗器械零件。": "Adecuado para superficies complejas, estructuras aeroespaciales y piezas de dispositivos médicos.",
+  "快速切割、标识、序列号与追溯编码。": "Corte rápido, marcado, números de serie y códigos de trazabilidad.",
+  "阳极氧化、电镀、喷砂、钝化、喷粉与抛光。": "Anodizado, galvanizado, arenado, pasivado, pintura en polvo y pulido.",
+  "从 1 件样品到 10,000 件规模化交付。": "Desde una muestra hasta entregas escaladas de 10.000 piezas.",
+  "发送图纸": "Enviar planos",
+  "上传 2D/3D 文件与技术要求": "Subir archivos 2D/3D y requisitos técnicos",
+  "工程评审": "Revisión técnica",
+  "DFM 建议、材料与工艺确认": "Sugerencias DFM y confirmación de material y proceso",
+  "报价排期": "Cotización y planificación",
+  "明确单价、交期与检测方案": "Confirmar precio unitario, plazo y plan de inspección",
+  "生产制造": "Producción",
+  "按工艺卡和检验点执行": "Ejecución según hoja de proceso y puntos de inspección",
+  "检验交付": "Inspección y entrega",
+  "包装、防护、报告与物流跟踪": "Embalaje, protección, informes y seguimiento logístico",
+  "6061、7075、5052，适合轻量化壳体与散热结构。": "6061, 7075 y 5052 son adecuados para carcasas ligeras y estructuras de disipación.",
+  "304、316L、17-4PH，适合耐腐蚀和高强度零件。": "304, 316L y 17-4PH son adecuados para piezas resistentes a la corrosión y de alta resistencia.",
+  "无人机、机器人和运动器材结构件定制加工。": "Mecanizado personalizado para estructuras de drones, robótica y equipos deportivos.",
+  "汽车与新能源零部件": "Piezas de automoción y nueva energía",
+  "机器人与自动化设备": "Robótica y equipos de automatización",
+  "电子半导体装备": "Equipos electrónicos y semiconductores",
+  "能源与工业设备": "Energía y equipos industriales",
+  "五轴加工如何降低复杂零件装夹误差": "Cómo el mecanizado de 5 ejes reduce errores de sujeción en piezas complejas",
+  "工程团队分享典型项目中的工艺优化经验。": "El equipo de ingeniería comparte experiencias de optimización de procesos en proyectos típicos.",
+  "铝件阳极氧化前需要注意什么": "Qué considerar antes de anodizar piezas de aluminio",
+  "从材料、纹理、尺寸补偿到外观验收。": "Desde material, textura y compensación dimensional hasta aceptación estética.",
+  "集团新检测中心投入使用": "Nuevo centro de inspección del grupo en funcionamiento",
+  "CMM 与全尺寸检测能力进一步扩充。": "Se ampliaron las capacidades de CMM e inspección dimensional completa.",
+  "小批量试产项目交付周期说明": "Notas de plazo para proyectos de prueba de lotes pequeños",
+  "帮助采购和研发团队合理规划样件节点。": "Ayuda a compras e I+D a planificar hitos de prototipos.",
+  "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "Enfocados en mecanizado CNC de alta precisión, piezas personalizadas y entrega de fabricación de grupo.",
+  "以 CNC 加工为核心，整合钣金、表面处理、装配和检测，帮助客户缩短新品导入周期。": "Con el mecanizado CNC como núcleo, integramos chapa, acabados, montaje e inspección para acortar el ciclo de introducción de nuevos productos.",
+  "三轴、四轴、五轴、车铣复合，公差可按 ±0.01mm 项目要求评估。": "Mecanizado de 3, 4 y 5 ejes y torneado-fresado; las tolerancias pueden evaluarse hasta ±0,01 mm según el proyecto.",
+  "支持研发验证、功能样件、外观样件和试产件快速交付。": "Entrega rápida de piezas de validación de I+D, prototipos funcionales, muestras estéticas y piezas de prueba.",
+  "钣金结构件": "Estructuras de chapa",
+  "激光切割、折弯、焊接、铆接、喷粉和装配一体化。": "Servicio integrado de corte láser, doblado, soldadura, remachado, pintura en polvo y montaje.",
+  "阳极氧化、硬质氧化、喷砂、电镀、钝化、发黑、拉丝和抛光。": "Anodizado, anodizado duro, arenado, galvanizado, pasivado, ennegrecido, cepillado y pulido.",
+  "首件、巡检、终检、FAI、尺寸报告和材料证明文件。": "Primera pieza, inspección en proceso, inspección final, FAI, informes dimensionales y certificados de material.",
+  "按客户包装、标签、报关和物流要求，交付到中国、欧洲、北美和东南亚。": "Entrega a China, Europa, Norteamérica y Sudeste Asiático según embalaje, etiquetado, aduana y logística del cliente.",
+  "工程协同先于生产": "Colaboración técnica antes de producción",
+  "提交加工需求": "Enviar requisitos de mecanizado",
+  "把图纸交给工程团队评审": "Enviar planos al equipo técnico para revisión",
+  "通常 24 小时内反馈工艺建议和初步报价。": "Normalmente se ofrecen sugerencias de proceso y cotización preliminar en 24 horas.",
+  "立即联系": "Contactar ahora",
+  "常用材料库存与指定牌号采购": "Inventario de materiales comunes y compra de grados específicos",
+  "覆盖金属、塑料、复材与高性能合金": "Metales, plásticos, compuestos y aleaciones de alto rendimiento",
+  "我们根据零件性能、表面要求、成本目标和交期，为客户匹配合适材料与工艺组合。": "Seleccionamos materiales y procesos según rendimiento de pieza, requisitos de superficie, objetivo de coste y plazo.",
+  "6061、6082、7075、2024、5052，适合轻量化结构件与外观件。": "6061, 6082, 7075, 2024 y 5052 son adecuados para piezas estructurales ligeras y piezas estéticas.",
+  "45#、Q235、4140、304、316L、17-4PH，兼顾强度与耐腐蚀。": "45#, Q235, 4140, 304, 316L y 17-4PH equilibran resistencia y resistencia a la corrosión.",
+  "C1100、H59、H62、铍铜，用于导电、导热和精密连接件。": "C1100, H59, H62 y cobre berilio para conductividad, disipación térmica y conectores de precisión.",
+  "POM、PA、PEEK、PC、ABS、PTFE，适合绝缘、耐磨和轻量应用。": "POM, PA, PEEK, PC, ABS y PTFE para aislamiento, resistencia al desgaste y aplicaciones ligeras.",
+  "钛合金与镍基合金": "Titanio y aleaciones base níquel",
+  "TC4、Inconel 等高性能材料按项目评估刀具与加工策略。": "TC4, Inconel y otros materiales de alto rendimiento se evalúan por proyecto para herramientas y estrategia de mecanizado.",
+  "适合无人机、机器人、医疗支架和高刚性轻量化结构件。": "Adecuado para drones, robótica, soportes médicos y estructuras ligeras de alta rigidez.",
+  "材料文件与追溯": "Documentación y trazabilidad de materiales",
+  "可按客户要求提供材质证明、RoHS/REACH 声明、热处理记录和表面处理批次文件。": "Podemos proporcionar certificados de material, declaraciones RoHS/REACH, registros de tratamiento térmico y lotes de acabado.",
+  "服务研发、采购、设备与供应链团队": "Servicio para equipos de I+D, compras, equipos y cadena de suministro",
+  "为高要求行业提供稳定的零部件制造能力": "Fabricación estable de componentes para industrias exigentes",
+  "不同领域对尺寸、外观、清洁度、材料和文件要求不同，我们按行业场景组织项目管理。": "Cada sector tiene requisitos distintos de dimensiones, apariencia, limpieza, materiales y documentos; gestionamos por escenario industrial.",
+  "电池包结构件、夹具、传感器壳体、热管理零件。": "Estructuras de paquetes de baterías, utillajes, carcasas de sensores y piezas térmicas.",
+  "末端执行器、关节结构件、导轨滑块、设备框架。": "Efectores finales, estructuras de articulación, guías deslizantes y bastidores de equipos.",
+  "设备结构件、仪器支架、微流控夹具、洁净包装需求。": "Estructuras de equipos, soportes de instrumentos, útiles microfluídicos y embalaje limpio.",
+  "治具、载具、散热件、定位板和高洁净零部件。": "Utillajes, portadores, disipadores, placas de posicionamiento y piezas de alta limpieza.",
+  "能源与电力": "Energía y electricidad",
+  "储能结构件、连接件、绝缘件、风电与光伏设备部件。": "Estructuras de almacenamiento, conectores, aislantes y componentes para equipos eólicos y solares.",
+  "泵阀零件、传动部件、非标机械和备件国产化。": "Piezas de bombas y válvulas, transmisión, maquinaria especial y localización de repuestos.",
+  "集团化制造 · 工程化交付 · 全球化服务": "Fabricación de grupo · Entrega técnica · Servicio global",
+  "恒睿精工集团是一家虚拟示例机加工集团，专注为全球 B2B 客户提供精密零件定制制造服务。": "Hengrui Precision Group es un grupo de mecanizado de ejemplo que ofrece fabricación personalizada de piezas de precisión para clientes B2B globales.",
+  "年精密制造经验": "años de experiencia en fabricación de precisión",
+  "台 CNC 与配套设备": "máquinas CNC y equipos auxiliares",
+  "个国家和地区客户": "países y regiones atendidos",
+  "年度准时交付率": "tasa anual de entrega puntual",
+  "我们希望成为研发型企业和装备制造企业背后的长期制造伙伴。集团通过统一的工程评审、生产计划、质量标准和供应链管理，把多工艺、多材料、多批次订单变成可预测的交付结果。": "Queremos ser el socio de fabricación a largo plazo para empresas de I+D y fabricantes de equipos. Mediante revisión técnica, planificación, estándares de calidad y gestión de cadena de suministro, convertimos pedidos multiproceso, multimaterial y multilote en entregas predecibles.",
+  "示例文案可后续替换为你的真实工厂规模、设备清单、认证证书、客户案例和团队照片。": "Este texto de ejemplo puede reemplazarse después por escala real de fábrica, lista de equipos, certificados, casos de clientes y fotos del equipo.",
+  "从单一加工车间到多工艺协同制造平台。": "De un taller de mecanizado individual a una plataforma de fabricación multiproceso.",
+  "创立 CNC 加工事业部，服务本地自动化设备客户。": "Fundación de la división CNC para servir a clientes locales de automatización.",
+  "建立质量检测中心，引入三坐标与首件报告流程。": "Creación del centro de inspección con CMM y proceso de informe de primera pieza.",
+  "成立海外项目组，支持英文图纸、出口包装和国际物流。": "Creación del equipo de proyectos internacionales para planos en inglés, embalaje de exportación y logística internacional.",
+  "升级集团网站与数字化询价流程，提升客户线索响应效率。": "Actualización del sitio web y flujo digital de cotización para mejorar la respuesta a clientes.",
+  "制造知识、集团动态与项目经验": "Conocimientos de fabricación, noticias del grupo y experiencia de proyectos",
+  "洞察精密制造，记录集团成长": "Perspectivas de fabricación de precisión y crecimiento del grupo",
+  "这里展示集团动态、工艺文章和客户常关心的加工知识，后续可接入真实 CMS。": "Aquí se muestran novedades del grupo, artículos técnicos y conocimientos de mecanizado; puede conectarse a un CMS real más adelante.",
+  "2026-05-18 · 多面加工减少重复定位，适合复杂曲面和高精度结构件。": "2026-05-18 · El mecanizado multilateral reduce reposicionamientos y sirve para superficies complejas y piezas de precisión.",
+  "阳极氧化前的设计注意事项": "Consideraciones de diseño antes del anodizado",
+  "2026-04-26 · 外观件需要提前考虑膜厚、遮蔽、批次色差与挂点。": "2026-04-26 · Las piezas estéticas requieren prever espesor, enmascarado, variación de color y puntos de colgado.",
+  "检测中心完成设备升级": "El centro de inspección completó la actualización de equipos",
+  "2026-03-12 · 新增自动影像测量仪和粗糙度检测能力。": "2026-03-12 · Se añadieron medición automática por visión e inspección de rugosidad.",
+  "小批量试产交期如何评估": "Cómo evaluar el plazo de producción piloto de lotes pequeños",
+  "2026-02-20 · 交期由材料、工艺、表面处理和检测文件共同决定。": "2026-02-20 · El plazo depende de material, proceso, acabado y documentos de inspección.",
+  "报价、交期、质量与材料常见问题": "Preguntas sobre cotización, plazo, calidad y materiales",
+  "如果你准备询价，建议同时提供 3D 文件、2D 图纸、材料、数量、表面处理和目标交期。": "Para cotizar, recomendamos proporcionar archivos 3D, planos 2D, material, cantidad, acabado y plazo objetivo.",
+  "你们能做到什么加工精度？": "¿Qué precisión de mecanizado pueden lograr?",
+  "常规 CNC 加工可按 ±0.05mm 控制，关键尺寸可根据结构、材料和检测方式评估到 ±0.01mm。最终以图纸和工程评审结论为准。": "El mecanizado CNC estándar puede controlarse a ±0,05 mm; dimensiones críticas pueden evaluarse hasta ±0,01 mm según estructura, material e inspección. El estándar final depende de planos y revisión técnica.",
+  "报价需要哪些资料？": "¿Qué información se necesita para cotizar?",
+  "建议提供 STEP/STP、IGES、X_T 或 SolidWorks 文件，另附 PDF/DWG 图纸、数量、材料、表面处理、检测要求和交付地址。": "Recomendamos archivos STEP/STP, IGES, X_T o SolidWorks, más planos PDF/DWG, cantidad, material, acabado, inspección y dirección de entrega.",
+  "典型交期多久？": "¿Cuál es el plazo típico?",
+  "简单样件通常 3-7 个工作日，复杂零件或含表面处理项目通常 7-15 个工作日，批量订单会根据排产和检验要求确认。": "Prototipos simples suelen tardar 3-7 días laborables; piezas complejas o con acabado 7-15 días. Pedidos en serie se confirman según planificación e inspección.",
+  "能否签保密协议？": "¿Pueden firmar un NDA?",
+  "可以。我们可与客户签署 NDA，并按项目权限管理图纸、报价、检测报告和生产资料。": "Sí. Podemos firmar NDA y gestionar planos, cotizaciones, informes de inspección y datos de producción por permisos de proyecto.",
+  "留言后怎么联系我？": "¿Cómo me contactarán después del mensaje?",
+  "你在联系页留下姓名、电话、邮箱和需求后，项目团队会通过电话、微信或邮件与你确认图纸、数量、材料和交期。": "Tras dejar nombre, teléfono, correo y requisitos, el equipo confirmará planos, cantidad, material y plazo por teléfono, WeChat o correo.",
+  "24 小时内响应项目询价": "Respuesta a consultas de proyecto en 24 horas",
+  "服务时间": "Horario de servicio",
+  "周一至周六 08:30-18:00": "Lunes a sábado, 08:30-18:00",
+  "海外项目可预约视频会议或英文邮件沟通。": "Para proyectos internacionales se puede coordinar videollamada o correo en inglés.",
+  "建议上传资料": "Archivos recomendados",
+  "3D 文件、2D 图纸、材料、数量、表面处理、检测要求和目标交期。": "Archivos 3D, planos 2D, material, cantidad, acabado, requisitos de inspección y plazo objetivo."
+});
+
 Object.keys(supplementalTranslations).forEach((lang) => {
   translations[lang] = { ...(translations[lang] || {}), ...supplementalTranslations[lang] };
+});
+
+const finalTranslations = {
+  ko: {
+    "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "고정밀 CNC 가공, 맞춤 부품 및 그룹형 제조 납품에 집중합니다."
+  },
+  es: {
+    "专注高精密 CNC 加工、定制零部件和集团化制造交付。": "Enfocados en mecanizado CNC de alta precisión, piezas personalizadas y entrega de fabricación de grupo."
+  },
+  ja: {
+    "恒睿精工集团": "恒睿精工グループ",
+    "© 2026 恒睿精工集团 版权所有": "© 2026 恒睿精工グループ 無断転載を禁じます。",
+    "常见问题 | 恒睿精工集团": "よくある質問 | 恒睿精工グループ"
+  }
+};
+
+Object.keys(finalTranslations).forEach((lang) => {
+  translations[lang] = { ...(translations[lang] || {}), ...finalTranslations[lang] };
 });
 
 const reverseTranslations = {};
@@ -302,6 +556,7 @@ const originalText = new WeakMap();
 const selectedLang = localStorage.getItem("site_language") || "zh";
 
 function normalizeSource(value) {
+  if (/\p{Script=Han}/u.test(value)) return value;
   if (translations.zh?.[value]) return value;
   if (reverseTranslations[value]) return reverseTranslations[value];
 
@@ -317,8 +572,11 @@ function normalizeSource(value) {
 
 function translateValue(value, lang) {
   if (lang === "zh") return value;
-  value = normalizeSource(value);
   const langDict = translations[lang] || {};
+  if (langDict[value]) return langDict[value];
+  if (lang === "en" && translations.en?.[value]) return translations.en[value];
+
+  value = normalizeSource(value);
   if (langDict[value]) return langDict[value];
   if (lang === "en" && translations.en?.[value]) return translations.en[value];
 
