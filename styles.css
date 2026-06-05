@@ -81,6 +81,18 @@ img { max-width: 100%; display: block; }
 .nav-links a { padding: 24px 0; border-bottom: 2px solid transparent; }
 .nav-links a:hover, .nav-links a.active { color: var(--red); border-color: var(--red); }
 .nav-actions { display: flex; align-items: center; gap: 12px; }
+.language-select {
+  height: 40px;
+  min-width: 104px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
 .icon-btn, .menu-toggle {
   width: 40px;
   height: 40px;
@@ -408,6 +420,7 @@ textarea { min-height: 132px; resize: vertical; }
   .nav-links.open { display: flex; }
   .nav-links a { width: 100%; padding: 14px 0; }
   .nav-actions .btn { display: none; }
+  .language-select { min-width: 92px; }
   .split, .industry-band, .contact-layout { grid-template-columns: 1fr; }
   .feature-row, .cap-grid, .material-grid, .news-grid, .metric-grid, .industry-grid, .process {
     grid-template-columns: repeat(2, 1fr);
