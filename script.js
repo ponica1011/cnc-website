@@ -200,7 +200,21 @@ const selectedLang = localStorage.getItem("site_language") || "zh";
 
 function translateValue(value, lang) {
   if (lang === "zh") return value;
-  return translations[lang]?.[value] || translations.en?.[value] || value;
+  const langDict = translations[lang] || {};
+  if (langDict[value]) return langDict[value];
+  if (translations.en?.[value]) return translations.en[value];
+
+  let translated = value;
+  const keys = Object.keys({ ...translations.en, ...langDict })
+    .filter((key) => key && key !== value && translated.includes(key))
+    .sort((a, b) => b.length - a.length);
+
+  keys.forEach((key) => {
+    const replacement = langDict[key] || translations.en[key];
+    if (replacement) translated = translated.split(key).join(replacement);
+  });
+
+  return translated;
 }
 
 function translatePage(lang) {
