@@ -532,6 +532,10 @@ const finalTranslations = {
     "材料能力": "Materials Capability",
     "行业方案": "Industry Solutions",
     "新闻中心": "News Center",
+    "提交后留言会发送到项目团队邮箱，并同步保存在 Formspree 后台。": "After submission, the message will be sent to the project team email and saved in the Formspree dashboard.",
+    "留言已提交成功，我们会尽快联系你。": "Your message has been submitted successfully. We will contact you soon.",
+    "提交失败，请稍后重试或直接发送邮件给我们。": "Submission failed. Please try again later or email us directly.",
+    "正在提交...": "Submitting...",
     "name@example.com": "name@example.com"
   },
   ko: {
@@ -543,6 +547,10 @@ const finalTranslations = {
     "新闻中心 | 恒睿精工集团": "뉴스 센터 | 헝루이 정밀 그룹",
     "常见问题 | 恒睿精工集团": "자주 묻는 질문 | 헝루이 정밀 그룹",
     "联系我们 | 恒睿精工集团": "문의하기 | 헝루이 정밀 그룹",
+    "提交后留言会发送到项目团队邮箱，并同步保存在 Formspree 后台。": "제출 후 메시지는 프로젝트 팀 이메일로 전송되며 Formspree 관리자 화면에도 저장됩니다.",
+    "留言已提交成功，我们会尽快联系你。": "문의가 성공적으로 제출되었습니다. 빠르게 연락드리겠습니다.",
+    "提交失败，请稍后重试或直接发送邮件给我们。": "제출에 실패했습니다. 나중에 다시 시도하거나 이메일로 직접 문의해 주세요.",
+    "正在提交...": "제출 중...",
     "name@example.com": "name@example.com"
   },
   es: {
@@ -557,6 +565,10 @@ const finalTranslations = {
     "新闻中心 | 恒睿精工集团": "Centro de noticias | Hengrui Precision Group",
     "常见问题 | 恒睿精工集团": "Preguntas frecuentes | Hengrui Precision Group",
     "联系我们 | 恒睿精工集团": "Contáctenos | Hengrui Precision Group",
+    "提交后留言会发送到项目团队邮箱，并同步保存在 Formspree 后台。": "Después de enviarlo, el mensaje se enviará al correo del equipo del proyecto y se guardará en el panel de Formspree.",
+    "留言已提交成功，我们会尽快联系你。": "Su mensaje se ha enviado correctamente. Nos pondremos en contacto pronto.",
+    "提交失败，请稍后重试或直接发送邮件给我们。": "El envío falló. Inténtelo de nuevo más tarde o escríbanos directamente por correo.",
+    "正在提交...": "Enviando...",
     "name@example.com": "name@example.com"
   },
   ja: {
@@ -709,6 +721,10 @@ Object.assign(finalTranslations.ja, {
   "方便联系你的号码": "連絡可能な番号を入力してください",
   "请填写材料、数量、公差、表面处理、交期等信息": "材料、数量、公差、表面処理、納期などをご記入ください",
   "批量生产合作": "量産協力",
+  "提交后留言会发送到项目团队邮箱，并同步保存在 Formspree 后台。": "送信後、お問い合わせ内容はプロジェクトチームのメールに送られ、Formspree 管理画面にも保存されます。",
+  "留言已提交成功，我们会尽快联系你。": "お問い合わせは正常に送信されました。できるだけ早くご連絡します。",
+  "提交失败，请稍后重试或直接发送邮件给我们。": "送信に失敗しました。後でもう一度お試しいただくか、直接メールでお問い合わせください。",
+  "正在提交...": "送信中...",
   "留言已整理为邮件内容，请在弹出的邮件窗口中发送。": "お問い合わせ内容をメール本文に整理しました。表示されたメール画面から送信してください。"
 });
 
@@ -888,29 +904,48 @@ function setLeads(leads) {
 }
 
 if (leadForm) {
-  leadForm.addEventListener("submit", (event) => {
+  leadForm.addEventListener("submit", async (event) => {
     event.preventDefault();
-    const data = Object.fromEntries(new FormData(leadForm).entries());
+    const submitButton = leadForm.querySelector('button[type="submit"]');
+    const formData = new FormData(leadForm);
+    const data = Object.fromEntries(formData.entries());
     data.createdAt = new Date().toLocaleString("zh-CN");
     const leads = getLeads();
     leads.unshift(data);
     setLeads(leads);
-    leadForm.reset();
-    if (successBox) successBox.style.display = "block";
-    const lang = currentLang();
-    const subject = encodeURIComponent(`${translateValue("网站询价留言", lang)} - ${data.company || data.name || translateValue("客户", lang)}`);
-    const body = encodeURIComponent([
-      `${translateValue("提交时间", lang)}：${data.createdAt}`,
-      `${translateValue("姓名：", lang)}${data.name || ""}`,
-      `${translateValue("公司：", lang)}${data.company || ""}`,
-      `${translateValue("电话/微信：", lang)}${data.phone || ""}`,
-      `${translateValue("邮箱：", lang)}${data.email || ""}`,
-      `${translateValue("需求类型：", lang)}${translateValue(data.service || "", lang)}`,
-      "",
-      translateValue("项目说明：", lang),
-      data.message || ""
-    ].join("\n"));
-    window.location.href = `mailto:junqi@gmail.com?subject=${subject}&body=${body}`;
+    formData.set("createdAt", data.createdAt);
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.dataset.originalText = submitButton.textContent;
+      submitButton.textContent = translateValue("正在提交...", currentLang());
+    }
+
+    try {
+      const response = await fetch(leadForm.action, {
+        method: "POST",
+        body: formData,
+        headers: { Accept: "application/json" }
+      });
+
+      if (!response.ok) throw new Error("Form submission failed");
+
+      leadForm.reset();
+      if (successBox) {
+        successBox.textContent = translateValue("留言已提交成功，我们会尽快联系你。", currentLang());
+        successBox.style.display = "block";
+      }
+    } catch (error) {
+      if (successBox) {
+        successBox.textContent = translateValue("提交失败，请稍后重试或直接发送邮件给我们。", currentLang());
+        successBox.style.display = "block";
+      }
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = submitButton.dataset.originalText || translateValue("提交留言", currentLang());
+      }
+    }
   });
 }
 
