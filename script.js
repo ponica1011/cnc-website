@@ -66,16 +66,147 @@ const translations = {
   }
 };
 
+const supplementalTranslations = {
+  en: {
+    "24 小时内响应项目询价": "Responding to project inquiries within 24 hours",
+    "304、316L、17-4PH，适合耐腐蚀和高强度零件。": "304, 316L, and 17-4PH for corrosion-resistant and high-strength parts.",
+    "3D 文件、2D 图纸、材料、数量、表面处理、检测要求和目标交期。": "3D files, 2D drawings, material, quantity, finish, inspection requirements, and target delivery date.",
+    "45#、Q235、4140、304、316L、17-4PH，兼顾强度与耐腐蚀。": "45#, Q235, 4140, 304, 316L, and 17-4PH for strength and corrosion resistance.",
+    "6061、6082、7075、2024、5052，适合轻量化结构件与外观件。": "6061, 6082, 7075, 2024, and 5052 for lightweight structural and cosmetic parts.",
+    "6061、7075、5052，适合轻量化壳体与散热结构。": "6061, 7075, and 5052 for lightweight housings and thermal structures.",
+    "C1100、H59、H62、铍铜，用于导电、导热和精密连接件。": "C1100, H59, H62, and beryllium copper for conductive, thermal, and precision connector parts.",
+    "CMM 与全尺寸检测能力进一步扩充。": "CMM and full-dimensional inspection capabilities have been expanded.",
+    "CMM、影像仪、粗糙度仪与全流程检验记录。": "CMM, vision measurement, roughness testing, and complete inspection records.",
+    "DFM 建议、材料与工艺确认": "DFM advice, material, and process confirmation",
+    "POM、PA、PEEK、PC、ABS、PTFE，适合绝缘、耐磨和轻量应用。": "POM, PA, PEEK, PC, ABS, and PTFE for insulation, wear resistance, and lightweight applications.",
+    "TC4、Inconel 等高性能材料按项目评估刀具与加工策略。": "TC4, Inconel, and other high-performance materials are evaluated by project for tooling and machining strategy.",
+    "三轴、四轴、五轴、车铣复合，公差可按 ±0.01mm 项目要求评估。": "3-axis, 4-axis, 5-axis, and mill-turn machining; tolerances can be evaluated to +/-0.01 mm by project.",
+    "上传 2D/3D 文件与技术要求": "Upload 2D/3D files and technical requirements",
+    "不同领域对尺寸、外观、清洁度、材料和文件要求不同，我们按行业场景组织项目管理。": "Different industries have different requirements for dimensions, appearance, cleanliness, materials, and documents, so we manage projects by application scenario.",
+    "不锈钢 CNC 加工": "Stainless Steel CNC Machining",
+    "个国家和地区客户": "countries and regions served",
+    "中英双语工程对接，覆盖打样、小批量和量产订单。": "Bilingual Chinese-English engineering support for prototypes, small batches, and production orders.",
+    "了解集团动态、制造知识和项目交付经验。": "Learn about group updates, manufacturing knowledge, and project delivery experience.",
+    "五轴加工如何降低复杂零件装夹误差": "How 5-Axis Machining Reduces Setup Error for Complex Parts",
+    "从 1 件样品到 10,000 件规模化交付。": "From one prototype to scaled delivery of 10,000 parts.",
+    "从单一加工车间到多工艺协同制造平台。": "From a single machining shop to a multi-process collaborative manufacturing platform.",
+    "从材料、纹理、尺寸补偿到外观验收。": "From material, texture, and dimensional compensation to cosmetic acceptance.",
+    "你在联系页留下姓名、电话、邮箱和需求后，项目团队会通过电话、微信或邮件与你确认图纸、数量、材料和交期。": "After you leave your name, phone, email, and requirements on the contact page, our project team will confirm drawings, quantity, material, and lead time by phone, WeChat, or email.",
+    "储能结构件、连接件、绝缘件、风电与光伏设备部件。": "Energy-storage structures, connectors, insulation parts, and wind/solar equipment components.",
+    "关于我们 | 恒睿精工集团": "About Us | Hengrui Precision Group",
+    "创立 CNC 加工事业部，服务本地自动化设备客户。": "Founded the CNC machining division to serve local automation equipment customers.",
+    "制造服务 | 恒睿精工集团": "Manufacturing Services | Hengrui Precision Group",
+    "制造知识、集团动态与项目经验": "Manufacturing knowledge, group updates, and project experience",
+    "包装、防护、报告与物流跟踪": "Packaging, protection, reports, and logistics tracking",
+    "升级集团网站与数字化询价流程，提升客户线索响应效率。": "Upgraded the group website and digital RFQ workflow to improve lead response efficiency.",
+    "可以。我们可与客户签署 NDA，并按项目权限管理图纸、报价、检测报告和生产资料。": "Yes. We can sign NDAs and manage drawings, quotes, inspection reports, and production documents by project permissions.",
+    "可按客户要求提供材质证明、RoHS/REACH 声明、热处理记录和表面处理批次文件。": "Material certificates, RoHS/REACH statements, heat-treatment records, and finishing batch documents can be provided on request.",
+    "台 CNC 与配套设备": "CNC and supporting machines",
+    "周一至周六 08:30-18:00": "Monday to Saturday, 08:30-18:00",
+    "处理复杂曲面、航空结构件和医疗器械零件。": "For complex surfaces, aerospace structures, and medical device components.",
+    "如果你准备询价，建议同时提供 3D 文件、2D 图纸、材料、数量、表面处理和目标交期。": "For a quote, please provide 3D files, 2D drawings, material, quantity, surface finish, and target delivery date.",
+    "小批量试产交期如何评估": "How to Evaluate Small-Batch Trial Production Lead Time",
+    "小批量试产项目交付周期说明": "Lead Time Notes for Small-Batch Trial Production",
+    "工程团队分享典型项目中的工艺优化经验。": "Our engineering team shares process optimization experience from typical projects.",
+    "帮助采购和研发团队合理规划样件节点。": "Helping procurement and R&D teams plan prototype milestones.",
+    "常用材料库存与指定牌号采购": "Common material inventory and specified grade sourcing",
+    "常见问题 | 恒睿精工集团": "FAQ | Hengrui Precision Group",
+    "常规 CNC 加工可按 ±0.05mm 控制，关键尺寸可根据结构、材料和检测方式评估到 ±0.01mm。最终以图纸和工程评审结论为准。": "Standard CNC machining can be controlled to +/-0.05 mm; critical dimensions can be evaluated to +/-0.01 mm depending on structure, material, and inspection method. Final requirements are based on drawings and engineering review.",
+    "年度准时交付率": "annual on-time delivery rate",
+    "年精密制造经验": "years of precision manufacturing experience",
+    "建立质量检测中心，引入三坐标与首件报告流程。": "Established a quality inspection center with CMM and first-article reporting processes.",
+    "建议提供 STEP/STP、IGES、X_T 或 SolidWorks 文件，另附 PDF/DWG 图纸、数量、材料、表面处理、检测要求和交付地址。": "Please provide STEP/STP, IGES, X_T, or SolidWorks files, plus PDF/DWG drawings, quantity, material, finish, inspection requirements, and delivery address.",
+    "快速切割、标识、序列号与追溯编码。": "Fast cutting, marking, serial numbers, and traceability codes.",
+    "恒睿精工集团 | CNC 机加工与定制制造": "Hengrui Precision Group | CNC Machining and Custom Manufacturing",
+    "恒睿精工集团是一家虚拟示例机加工集团，专注为全球 B2B 客户提供精密零件定制制造服务。": "Hengrui Precision Group is a sample machining group focused on precision custom part manufacturing for global B2B customers.",
+    "成立海外项目组，支持英文图纸、出口包装和国际物流。": "Established an overseas project team supporting English drawings, export packaging, and international logistics.",
+    "我们会在报价阶段评估薄壁、深腔、倒角、螺纹、热处理和表面处理对成本与交期的影响，提前给出可制造性建议。": "During quotation, we evaluate the impact of thin walls, deep cavities, chamfers, threads, heat treatment, and finishing on cost and lead time, then provide manufacturability suggestions early.",
+    "我们希望成为研发型企业和装备制造企业背后的长期制造伙伴。集团通过统一的工程评审、生产计划、质量标准和供应链管理，把多工艺、多材料、多批次订单变成可预测的交付结果。": "We aim to be a long-term manufacturing partner for R&D-driven and equipment manufacturing companies. Through unified engineering review, planning, quality standards, and supply-chain management, we turn multi-process, multi-material, multi-batch orders into predictable deliveries.",
+    "我们根据零件性能、表面要求、成本目标和交期，为客户匹配合适材料与工艺组合。": "We match materials and process combinations based on part performance, surface requirements, cost targets, and lead time.",
+    "我们面向高可靠、高一致性和快速迭代的行业场景建立工艺数据库。": "We build process databases for industries requiring high reliability, consistency, and rapid iteration.",
+    "报价、交期、质量与材料常见问题": "Common questions about quotes, lead time, quality, and materials",
+    "按 ISO、RoHS、REACH 与客户行业规范组织交付。": "Delivery is organized according to ISO, RoHS, REACH, and customer industry requirements.",
+    "按客户包装、标签、报关和物流要求，交付到中国、欧洲、北美和东南亚。": "Delivery to China, Europe, North America, and Southeast Asia according to customer packaging, labeling, customs, and logistics requirements.",
+    "按工艺卡和检验点执行": "Executed according to process cards and inspection points",
+    "提交后会生成邮件内容发送给项目团队；正式上线时可接入企业邮箱、CRM、企业微信或数据库。": "After submission, an email draft will be generated for the project team. For official launch, it can be connected to business email, CRM, WeCom, or a database.",
+    "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "Supports 3-axis, 4-axis, 5-axis, mill-turn machining, and complex fixture development.",
+    "支持研发验证、功能样件、外观样件和试产件快速交付。": "Supports rapid delivery of R&D validation parts, functional prototypes, cosmetic samples, and trial production parts.",
+    "新闻中心 | 恒睿精工集团": "News Center | Hengrui Precision Group",
+    "无人机、机器人和运动器材结构件定制加工。": "Custom machining for drone, robotics, and sports equipment structures.",
+    "明确单价、交期与检测方案": "Clarify unit price, lead time, and inspection plan",
+    "服务研发、采购、设备与供应链团队": "Serving R&D, procurement, equipment, and supply-chain teams",
+    "末端执行器、关节结构件、导轨滑块、设备框架。": "End effectors, joint structures, guide sliders, and equipment frames.",
+    "机箱、支架、罩壳与自动化设备结构件。": "Enclosures, brackets, covers, and automation equipment structures.",
+    "材料能力 | 恒睿精工集团": "Material Capabilities | Hengrui Precision Group",
+    "检测中心完成设备升级": "Inspection Center Equipment Upgrade Completed",
+    "江苏省苏州市工业园区智造路 88 号": "No. 88 Zhizao Road, Suzhou Industrial Park, Jiangsu, China",
+    "江苏省苏州市工业园区智造路 88 号恒睿精工中心": "Hengrui Precision Center, No. 88 Zhizao Road, Suzhou Industrial Park, Jiangsu, China",
+    "治具、载具、散热件、定位板和高洁净零部件。": "Fixtures, carriers, heat sinks, positioning plates, and high-cleanliness parts.",
+    "泵阀零件、传动部件、非标机械和备件国产化。": "Pump and valve parts, transmission components, custom machinery, and localized spare parts.",
+    "海外项目可预约视频会议或英文邮件沟通。": "Overseas projects can schedule video meetings or communicate by English email.",
+    "激光切割、折弯、焊接、铆接、喷粉和装配一体化。": "Integrated laser cutting, bending, welding, riveting, powder coating, and assembly.",
+    "电池包结构件、夹具、传感器壳体、热管理零件。": "Battery-pack structures, fixtures, sensor housings, and thermal-management parts.",
+    "留下图纸或联系方式，我们的项目工程师会尽快联系你。": "Leave drawings or contact details, and our project engineer will contact you soon.",
+    "留言已整理为邮件内容，请在弹出的邮件窗口中发送。": "Your message has been prepared as an email. Please send it in the email window that opens.",
+    "示例文案可后续替换为你的真实工厂规模、设备清单、认证证书、客户案例和团队照片。": "This sample copy can later be replaced with your real factory scale, equipment list, certificates, customer cases, and team photos.",
+    "简单样件通常 3-7 个工作日，复杂零件或含表面处理项目通常 7-15 个工作日，批量订单会根据排产和检验要求确认。": "Simple prototypes usually take 3-7 working days. Complex parts or projects with finishing usually take 7-15 working days. Production orders are confirmed based on scheduling and inspection requirements.",
+    "设备结构件、仪器支架、微流控夹具、洁净包装需求。": "Equipment structures, instrument brackets, microfluidic fixtures, and clean packaging requirements.",
+    "请留下你的联系方式、项目数量和关键要求，项目工程师会尽快与你确认图纸、材料、交期和报价。": "Please leave your contact details, project quantity, and key requirements. A project engineer will confirm drawings, material, lead time, and quotation with you soon.",
+    "这里展示集团动态、工艺文章和客户常关心的加工知识，后续可接入真实 CMS。": "This section displays group updates, process articles, and machining knowledge customers often ask about. It can be connected to a real CMS later.",
+    "适合无人机、机器人、医疗支架和高刚性轻量化结构件。": "Suitable for drones, robotics, medical brackets, and high-rigidity lightweight structures.",
+    "适合高精度结构件、壳体、轴类与连接件。": "Suitable for high-precision structures, housings, shafts, and connectors.",
+    "通常 24 小时内反馈工艺建议和初步报价。": "Process advice and a preliminary quote are usually provided within 24 hours.",
+    "铝件阳极氧化前需要注意什么": "What to Consider Before Anodizing Aluminum Parts",
+    "集团工厂视觉": "Group factory visual",
+    "覆盖金属、塑料、复合材料与高性能合金，也可按客户品牌牌号采购。": "Covers metals, plastics, composites, and high-performance alloys, with sourcing by customer-specified grades.",
+    "铝合金 CNC 加工": "Aluminum CNC Machining",
+    "碳纤维复合材料": "Carbon Fiber Composite Materials",
+    "汽车与新能源零部件": "Automotive and New Energy Parts",
+    "机器人与自动化设备": "Robotics and Automation Equipment",
+    "电子半导体装备": "Electronics and Semiconductor Equipment",
+    "能源与工业设备": "Energy and Industrial Equipment",
+    "首件、巡检、终检、FAI、尺寸报告和材料证明文件。": "First-article inspection, in-process inspection, final inspection, FAI, dimensional reports, and material certificates.",
+    "行业方案 | 恒睿精工集团": "Industry Solutions | Hengrui Precision Group",
+    "联系我们 | 恒睿精工集团": "Contact Us | Hengrui Precision Group",
+    "2026-05-18 · 多面加工减少重复定位，适合复杂曲面和高精度结构件。": "2026-05-18 · Multi-side machining reduces repeated positioning and suits complex surfaces and high-precision structures.",
+    "2026-04-26 · 外观件需要提前考虑膜厚、遮蔽、批次色差与挂点。": "2026-04-26 · Cosmetic parts require early consideration of coating thickness, masking, batch color variation, and hanging points.",
+    "2026-03-12 · 新增自动影像测量仪和粗糙度检测能力。": "2026-03-12 · Added automated vision measurement and roughness inspection capabilities.",
+    "2026-02-20 · 交期由材料、工艺、表面处理和检测文件共同决定。": "2026-02-20 · Lead time is determined by material, process, surface finishing, and inspection documents.",
+    "阳极氧化、电镀、喷砂、钝化、喷粉与抛光。": "Anodizing, plating, sandblasting, passivation, powder coating, and polishing.",
+    "阳极氧化、硬质氧化、喷砂、电镀、钝化、发黑、拉丝和抛光。": "Anodizing, hard anodizing, sandblasting, plating, passivation, blackening, brushing, and polishing.",
+    "阳极氧化前的设计注意事项": "Design Considerations Before Anodizing",
+    "集团化制造 · 工程化交付 · 全球化服务": "Group manufacturing · Engineering delivery · Global service",
+    "集团新检测中心投入使用": "New Group Inspection Center Put Into Use",
+    "首页 / 联系我们": "Home / Contact"
+  }
+};
+
+["ko", "ja", "es"].forEach((lang) => {
+  supplementalTranslations[lang] = supplementalTranslations[lang] || {};
+});
+
+Object.keys(supplementalTranslations.en).forEach((key) => {
+  ["ko", "ja", "es"].forEach((lang) => {
+    if (!supplementalTranslations[lang][key]) supplementalTranslations[lang][key] = supplementalTranslations.en[key];
+  });
+});
+
+Object.keys(supplementalTranslations).forEach((lang) => {
+  translations[lang] = { ...(translations[lang] || {}), ...supplementalTranslations[lang] };
+});
+
 const originalText = new WeakMap();
 const selectedLang = localStorage.getItem("site_language") || "zh";
 
 function translateValue(value, lang) {
   if (lang === "zh") return value;
-  return translations[lang]?.[value] || value;
+  return translations[lang]?.[value] || translations.en?.[value] || value;
 }
 
 function translatePage(lang) {
   document.documentElement.lang = lang === "zh" ? "zh-CN" : lang;
+  if (!document.body.dataset.originalTitle) document.body.dataset.originalTitle = document.title;
+  document.title = translateValue(document.body.dataset.originalTitle, lang);
   document.querySelectorAll(".language-select").forEach((select) => {
     select.value = lang;
   });
