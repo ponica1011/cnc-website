@@ -185,10 +185,58 @@ const supplementalTranslations = {
   supplementalTranslations[lang] = supplementalTranslations[lang] || {};
 });
 
-Object.keys(supplementalTranslations.en).forEach((key) => {
-  ["ko", "ja", "es"].forEach((lang) => {
-    if (!supplementalTranslations[lang][key]) supplementalTranslations[lang][key] = supplementalTranslations.en[key];
-  });
+Object.assign(supplementalTranslations.ko, {
+  "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "도면 검토와 빠른 시제품 제작부터 양산 납품까지, 헝루이 정밀은 자동차, 로봇, 의료, 에너지 및 산업 장비 고객에게 안정적인 원스톱 기계가공 솔루션을 제공합니다.",
+  "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "헝루이 정밀 그룹은 화동 제조 핵심 지역에 본사를 두고 있으며 CNC 가공, 판금 용접, 표면처리, 품질검사 및 프로젝트 엔지니어링 센터를 운영합니다. 엔지니어링 협업과 공정 관리를 기반으로 고객의 공급망 커뮤니케이션 비용을 줄입니다.",
+  "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "3축, 4축, 5축, 복합 선삭·밀링 및 복잡한 지그 개발을 지원합니다.",
+  "围绕定制零部件全生命周期配置工艺能力，让工程师从询价开始就获得可制造性建议。": "맞춤 부품의 전체 수명주기에 맞춰 공정 역량을 구성하여 엔지니어가 문의 단계부터 제조성 제안을 받을 수 있습니다.",
+  "每个订单都有工程、计划、质量与商务负责人同步推进。": "모든 주문은 엔지니어링, 계획, 품질, 영업 담당자가 함께 추진합니다.",
+  "覆盖金属、塑料、复合材料与高性能合金，也可按客户品牌牌号采购。": "금속, 플라스틱, 복합재 및 고성능 합금을 다루며 고객 지정 등급으로도 구매할 수 있습니다.",
+  "我们面向高可靠、高一致性和快速迭代的行业场景建立工艺数据库。": "높은 신뢰성, 일관성, 빠른 반복이 필요한 산업 분야를 위해 공정 데이터베이스를 구축합니다.",
+  "了解集团动态、制造知识和项目交付经验。": "그룹 소식, 제조 지식 및 프로젝트 납품 경험을 확인하세요.",
+  "留下图纸或联系方式，我们的项目工程师会尽快联系你。": "도면이나 연락처를 남기시면 프로젝트 엔지니어가 빠르게 연락드립니다.",
+  "我们会在报价阶段评估薄壁、深腔、倒角、螺纹、热处理和表面处理对成本与交期的影响，提前给出可制造性建议。": "견적 단계에서 얇은 벽, 깊은 캐비티, 모따기, 나사, 열처리 및 표면처리가 비용과 납기에 미치는 영향을 평가하고 사전에 제조성 제안을 제공합니다.",
+  "请留下你的联系方式、项目数量和关键要求，项目工程师会尽快与你确认图纸、材料、交期和报价。": "연락처, 프로젝트 수량 및 주요 요구사항을 남겨 주세요. 프로젝트 엔지니어가 도면, 소재, 납기 및 견적을 빠르게 확인합니다.",
+  "提交后会生成邮件内容发送给项目团队；正式上线时可接入企业邮箱、CRM、企业微信或数据库。": "제출 후 프로젝트 팀으로 보낼 이메일 내용이 생성됩니다. 정식 운영 시 기업 이메일, CRM, 기업 위챗 또는 데이터베이스와 연동할 수 있습니다.",
+  "留言已整理为邮件内容，请在弹出的邮件窗口中发送。": "문의 내용이 이메일로 정리되었습니다. 열린 메일 창에서 전송해 주세요.",
+  "江苏省苏州市工业园区智造路 88 号": "중국 장쑤성 쑤저우 산업단지 즈자오로 88호",
+  "江苏省苏州市工业园区智造路 88 号恒睿精工中心": "중국 장쑤성 쑤저우 산업단지 즈자오로 88호 헝루이 정밀 센터"
+});
+
+Object.assign(supplementalTranslations.ja, {
+  "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "図面レビュー、迅速な試作から量産納品まで、Hengrui は自動車、ロボット、医療、エネルギー、産業設備のお客様に安定したワンストップ機械加工ソリューションを提供します。",
+  "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "Hengrui Precision Group は華東製造エリアに本社を置き、CNC 加工、板金溶接、表面処理、品質検査、プロジェクトエンジニアリングセンターを備えています。工程連携とプロセス管理により、お客様のサプライチェーン上のコミュニケーションコストを削減します。",
+  "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "3軸、4軸、5軸、複合旋盤・ミーリング、複雑な治具開発に対応します。",
+  "围绕定制零部件全生命周期配置工艺能力，让工程师从询价开始就获得可制造性建议。": "カスタム部品のライフサイクル全体に合わせて工程能力を整え、問い合わせ段階から製造性提案を提供します。",
+  "每个订单都有工程、计划、质量与商务负责人同步推进。": "各注文はエンジニアリング、計画、品質、営業の担当者が連携して進めます。",
+  "覆盖金属、塑料、复合材料与高性能合金，也可按客户品牌牌号采购。": "金属、樹脂、複合材料、高性能合金に対応し、お客様指定の材質グレードでの調達も可能です。",
+  "我们面向高可靠、高一致性和快速迭代的行业场景建立工艺数据库。": "高信頼性、高い一貫性、迅速な反復が求められる業界向けに工程データベースを構築しています。",
+  "了解集团动态、制造知识和项目交付经验。": "グループニュース、製造知識、プロジェクト納品経験をご覧ください。",
+  "留下图纸或联系方式，我们的项目工程师会尽快联系你。": "図面または連絡先を残していただければ、プロジェクトエンジニアが早急にご連絡します。",
+  "我们会在报价阶段评估薄壁、深腔、倒角、螺纹、热处理和表面处理对成本与交期的影响，提前给出可制造性建议。": "見積段階で薄肉、深穴、面取り、ねじ、熱処理、表面処理がコストと納期に与える影響を評価し、事前に製造性提案を行います。",
+  "请留下你的联系方式、项目数量和关键要求，项目工程师会尽快与你确认图纸、材料、交期和报价。": "連絡先、数量、主要要件をお知らせください。プロジェクトエンジニアが図面、材料、納期、見積を早急に確認します。",
+  "提交后会生成邮件内容发送给项目团队；正式上线时可接入企业邮箱、CRM、企业微信或数据库。": "送信後、プロジェクトチーム宛てのメール本文が生成されます。正式運用時には企業メール、CRM、WeCom、データベースと連携できます。",
+  "留言已整理为邮件内容，请在弹出的邮件窗口中发送。": "お問い合わせ内容をメール本文に整理しました。表示されたメール画面から送信してください。",
+  "江苏省苏州市工业园区智造路 88 号": "中国江蘇省蘇州市工業園区智造路88号",
+  "江苏省苏州市工业园区智造路 88 号恒睿精工中心": "中国江蘇省蘇州市工業園区智造路88号 Hengrui Precision Center"
+});
+
+Object.assign(supplementalTranslations.es, {
+  "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "Desde la revisión de planos y prototipos rápidos hasta la entrega en serie, Hengrui ofrece soluciones integrales y confiables de mecanizado para clientes de automoción, robótica, medicina, energía y equipos industriales.",
+  "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "Hengrui Precision Group tiene su sede en el núcleo manufacturero del este de China e integra mecanizado CNC, soldadura de chapa, acabados, inspección de calidad e ingeniería de proyectos. Con coordinación técnica y control de procesos, reducimos los costes de comunicación de la cadena de suministro.",
+  "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "Admitimos mecanizado de 3, 4 y 5 ejes, torneado-fresado y desarrollo de utillajes complejos.",
+  "围绕定制零部件全生命周期配置工艺能力，让工程师从询价开始就获得可制造性建议。": "Configuramos capacidades de proceso para todo el ciclo de vida de las piezas personalizadas, de modo que los ingenieros reciban sugerencias de fabricabilidad desde la consulta inicial.",
+  "每个订单都有工程、计划、质量与商务负责人同步推进。": "Cada pedido avanza con responsables de ingeniería, planificación, calidad y ventas trabajando en conjunto.",
+  "覆盖金属、塑料、复合材料与高性能合金，也可按客户品牌牌号采购。": "Cubrimos metales, plásticos, compuestos y aleaciones de alto rendimiento, y también podemos comprar grados especificados por el cliente.",
+  "我们面向高可靠、高一致性和快速迭代的行业场景建立工艺数据库。": "Creamos bases de datos de procesos para sectores que requieren alta fiabilidad, consistencia y rápida iteración.",
+  "了解集团动态、制造知识和项目交付经验。": "Conozca novedades del grupo, conocimientos de fabricación y experiencia de entrega.",
+  "留下图纸或联系方式，我们的项目工程师会尽快联系你。": "Deje sus planos o datos de contacto y nuestro ingeniero de proyecto se comunicará pronto con usted.",
+  "我们会在报价阶段评估薄壁、深腔、倒角、螺纹、热处理和表面处理对成本与交期的影响，提前给出可制造性建议。": "Durante la cotización evaluamos el impacto de paredes delgadas, cavidades profundas, chaflanes, roscas, tratamientos térmicos y acabados en coste y plazo, y ofrecemos sugerencias de fabricabilidad por adelantado.",
+  "请留下你的联系方式、项目数量和关键要求，项目工程师会尽快与你确认图纸、材料、交期和报价。": "Deje sus datos de contacto, cantidad del proyecto y requisitos clave. Un ingeniero confirmará planos, material, plazo y cotización lo antes posible.",
+  "提交后会生成邮件内容发送给项目团队；正式上线时可接入企业邮箱、CRM、企业微信或数据库。": "Después de enviar, se generará un correo para el equipo del proyecto. En la versión oficial puede conectarse a correo empresarial, CRM, WeCom o base de datos.",
+  "留言已整理为邮件内容，请在弹出的邮件窗口中发送。": "El mensaje se ha preparado como correo electrónico. Envíelo desde la ventana de correo que se abre.",
+  "江苏省苏州市工业园区智造路 88 号": "No. 88 Zhizao Road, Parque Industrial de Suzhou, Jiangsu, China",
+  "江苏省苏州市工业园区智造路 88 号恒睿精工中心": "Centro Hengrui Precision, No. 88 Zhizao Road, Parque Industrial de Suzhou, Jiangsu, China"
 });
 
 Object.keys(supplementalTranslations).forEach((lang) => {
@@ -202,17 +250,26 @@ function translateValue(value, lang) {
   if (lang === "zh") return value;
   const langDict = translations[lang] || {};
   if (langDict[value]) return langDict[value];
-  if (translations.en?.[value]) return translations.en[value];
+  if (lang === "en" && translations.en?.[value]) return translations.en[value];
 
   let translated = value;
-  const keys = Object.keys({ ...translations.en, ...langDict })
+  const keys = Object.keys(langDict)
     .filter((key) => key && key !== value && translated.includes(key))
     .sort((a, b) => b.length - a.length);
 
   keys.forEach((key) => {
-    const replacement = langDict[key] || translations.en[key];
+    const replacement = langDict[key];
     if (replacement) translated = translated.split(key).join(replacement);
   });
+
+  if (lang === "en" && translated === value) {
+    const enKeys = Object.keys(translations.en)
+      .filter((key) => key && key !== value && translated.includes(key))
+      .sort((a, b) => b.length - a.length);
+    enKeys.forEach((key) => {
+      translated = translated.split(key).join(translations.en[key]);
+    });
+  }
 
   return translated;
 }
