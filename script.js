@@ -580,6 +580,11 @@ Object.keys(finalTranslations).forEach((lang) => {
   translations[lang] = { ...(translations[lang] || {}), ...finalTranslations[lang] };
 });
 
+const sourceKeys = new Set();
+Object.values(translations).forEach((dict) => {
+  Object.keys(dict).forEach((key) => sourceKeys.add(key));
+});
+
 const reverseTranslations = {};
 Object.entries(translations).forEach(([, dict]) => {
   Object.entries(dict).forEach(([source, translated]) => {
@@ -587,15 +592,44 @@ Object.entries(translations).forEach(([, dict]) => {
   });
 });
 
+const mixedSourceAliases = {
+  "覆蓋": "覆盖",
+  "顧客": "客户",
+  "為": "为",
+  "適": "适",
+  "構造": "结构",
+  "對應": "对应",
+  "資料": "资料",
+  "品質": "质量",
+  "檢": "检",
+  "項": "项",
+  "圖紙": "图纸",
+  "圖": "图",
+  "聲明": "声明",
+  "處理": "处理",
+  "熱": "热",
+  "記錄": "记录",
+  "連絡": "联系",
+  "報價": "报价",
+  "週": "周",
+  "時間": "时间",
+  "數量": "数量",
+  "輕量": "轻量"
+};
+
 const originalText = new WeakMap();
 const selectedLang = localStorage.getItem("site_language") || "zh";
 
 function normalizeSource(value) {
-  if (/\p{Script=Han}/u.test(value)) return value;
-  if (translations.zh?.[value]) return value;
+  if (sourceKeys.has(value)) return value;
   if (reverseTranslations[value]) return reverseTranslations[value];
 
   let normalized = value;
+  Object.entries(mixedSourceAliases).forEach(([mixed, source]) => {
+    normalized = normalized.split(mixed).join(source);
+  });
+  if (sourceKeys.has(normalized)) return normalized;
+
   Object.keys(reverseTranslations)
     .filter((key) => key && normalized.includes(key))
     .sort((a, b) => b.length - a.length)
