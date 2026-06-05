@@ -186,6 +186,22 @@ const supplementalTranslations = {
 });
 
 Object.assign(supplementalTranslations.ko, {
+  "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "복잡한 부품을 위한 반복 가능한 납품 기준을 구축하는 중국 정밀 가공 공장",
+  "CNC 加工经验": "CNC 가공 전문성",
+  "全球项目服务": "글로벌 프로젝트 서비스",
+  "质量控制": "품질 관리",
+  "认证与合规": "인증 및 규정 준수",
+  "了解集团": "그룹 소개",
+  "适合高精度结构件、壳体、轴类与连接件。": "고정밀 구조 부품, 하우징, 샤프트 및 연결 부품에 적합합니다.",
+  "机箱、支架、罩壳与自动化设备结构件。": "캐비닛, 브래킷, 커버 및 자동화 장비 구조 부품.",
+  "激光切割与雕刻": "레이저 절단 및 마킹",
+  "铝合金 CNC 加工": "알루미늄 합금 CNC 가공",
+  "不锈钢 CNC 加工": "스테인리스 CNC 가공",
+  "碳纤维复合材料": "탄소섬유 복합재",
+  "需要可靠的 CNC 定制制造伙伴？": "신뢰할 수 있는 CNC 맞춤 제조 파트너가 필요하신가요?",
+  "获取方案与报价": "솔루션 및 견적 받기",
+  "业务入口": "비즈니스",
+  "© 2026 恒睿精工集团 版权所有": "© 2026 헝루이 정밀 그룹. 모든 권리 보유.",
   "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "도면 검토와 빠른 시제품 제작부터 양산 납품까지, 헝루이 정밀은 자동차, 로봇, 의료, 에너지 및 산업 장비 고객에게 안정적인 원스톱 기계가공 솔루션을 제공합니다.",
   "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "헝루이 정밀 그룹은 화동 제조 핵심 지역에 본사를 두고 있으며 CNC 가공, 판금 용접, 표면처리, 품질검사 및 프로젝트 엔지니어링 센터를 운영합니다. 엔지니어링 협업과 공정 관리를 기반으로 고객의 공급망 커뮤니케이션 비용을 줄입니다.",
   "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "3축, 4축, 5축, 복합 선삭·밀링 및 복잡한 지그 개발을 지원합니다.",
@@ -204,6 +220,22 @@ Object.assign(supplementalTranslations.ko, {
 });
 
 Object.assign(supplementalTranslations.ja, {
+  "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "複雑部品に再現性のある納品基準を構築する中国の精密加工工場",
+  "CNC 加工经验": "CNC 加工の専門性",
+  "全球项目服务": "グローバルプロジェクトサービス",
+  "质量控制": "品質管理",
+  "认证与合规": "認証・コンプライアンス",
+  "了解集团": "グループを見る",
+  "适合高精度结构件、壳体、轴类与连接件。": "高精度構造部品、筐体、シャフト、接続部品に適しています。",
+  "机箱、支架、罩壳与自动化设备结构件。": "筐体、ブラケット、カバー、自動化設備の構造部品。",
+  "激光切割与雕刻": "レーザー切断・マーキング",
+  "铝合金 CNC 加工": "アルミ合金 CNC 加工",
+  "不锈钢 CNC 加工": "ステンレス CNC 加工",
+  "碳纤维复合材料": "炭素繊維複合材料",
+  "需要可靠的 CNC 定制制造伙伴？": "信頼できる CNC カスタム製造パートナーをお探しですか？",
+  "获取方案与报价": "提案と見積を依頼",
+  "业务入口": "事業",
+  "© 2026 恒睿精工集团 版权所有": "© 2026 Hengrui Precision Group. All rights reserved.",
   "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "図面レビュー、迅速な試作から量産納品まで、Hengrui は自動車、ロボット、医療、エネルギー、産業設備のお客様に安定したワンストップ機械加工ソリューションを提供します。",
   "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "Hengrui Precision Group は華東製造エリアに本社を置き、CNC 加工、板金溶接、表面処理、品質検査、プロジェクトエンジニアリングセンターを備えています。工程連携とプロセス管理により、お客様のサプライチェーン上のコミュニケーションコストを削減します。",
   "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "3軸、4軸、5軸、複合旋盤・ミーリング、複雑な治具開発に対応します。",
@@ -222,6 +254,22 @@ Object.assign(supplementalTranslations.ja, {
 });
 
 Object.assign(supplementalTranslations.es, {
+  "中国精密机加工工厂，为复杂零件建立可复制的交付标准": "Fábrica china de mecanizado de precisión que crea estándares repetibles para piezas complejas",
+  "CNC 加工经验": "Experiencia en mecanizado CNC",
+  "全球项目服务": "Servicio global de proyectos",
+  "质量控制": "Control de calidad",
+  "认证与合规": "Certificaciones y cumplimiento",
+  "了解集团": "Conocer el grupo",
+  "适合高精度结构件、壳体、轴类与连接件。": "Adecuado para estructuras de alta precisión, carcasas, ejes y conectores.",
+  "机箱、支架、罩壳与自动化设备结构件。": "Gabinetes, soportes, cubiertas y estructuras para equipos de automatización.",
+  "激光切割与雕刻": "Corte láser y marcado",
+  "铝合金 CNC 加工": "Mecanizado CNC de aluminio",
+  "不锈钢 CNC 加工": "Mecanizado CNC de acero inoxidable",
+  "碳纤维复合材料": "Materiales compuestos de fibra de carbono",
+  "需要可靠的 CNC 定制制造伙伴？": "¿Necesita un socio confiable de fabricación CNC personalizada?",
+  "获取方案与报价": "Obtener solución y cotización",
+  "业务入口": "Negocio",
+  "© 2026 恒睿精工集团 版权所有": "© 2026 Grupo Hengrui Precision. Todos los derechos reservados.",
   "从图纸评审、快速打样到批量交付，恒睿精工为汽车、机器人、医疗、能源与工业设备客户提供稳定可靠的一站式机加工解决方案。": "Desde la revisión de planos y prototipos rápidos hasta la entrega en serie, Hengrui ofrece soluciones integrales y confiables de mecanizado para clientes de automoción, robótica, medicina, energía y equipos industriales.",
   "恒睿精工集团总部位于华东制造核心区，下设 CNC 加工、钣金焊接、表面处理、质量检测与项目工程中心。我们以工程协同和过程控制为基础，为客户减少供应链沟通成本。": "Hengrui Precision Group tiene su sede en el núcleo manufacturero del este de China e integra mecanizado CNC, soldadura de chapa, acabados, inspección de calidad e ingeniería de proyectos. Con coordinación técnica y control de procesos, reducimos los costes de comunicación de la cadena de suministro.",
   "支持三轴、四轴、五轴、车铣复合与复杂夹治具开发。": "Admitimos mecanizado de 3, 4 y 5 ejes, torneado-fresado y desarrollo de utillajes complejos.",
@@ -243,11 +291,33 @@ Object.keys(supplementalTranslations).forEach((lang) => {
   translations[lang] = { ...(translations[lang] || {}), ...supplementalTranslations[lang] };
 });
 
+const reverseTranslations = {};
+Object.entries(translations).forEach(([, dict]) => {
+  Object.entries(dict).forEach(([source, translated]) => {
+    if (translated && translated !== source) reverseTranslations[translated] = source;
+  });
+});
+
 const originalText = new WeakMap();
 const selectedLang = localStorage.getItem("site_language") || "zh";
 
+function normalizeSource(value) {
+  if (translations.zh?.[value]) return value;
+  if (reverseTranslations[value]) return reverseTranslations[value];
+
+  let normalized = value;
+  Object.keys(reverseTranslations)
+    .filter((key) => key && normalized.includes(key))
+    .sort((a, b) => b.length - a.length)
+    .forEach((key) => {
+      normalized = normalized.split(key).join(reverseTranslations[key]);
+    });
+  return normalized;
+}
+
 function translateValue(value, lang) {
   if (lang === "zh") return value;
+  value = normalizeSource(value);
   const langDict = translations[lang] || {};
   if (langDict[value]) return langDict[value];
   if (lang === "en" && translations.en?.[value]) return translations.en[value];
@@ -294,11 +364,12 @@ function translatePage(lang) {
   const nodes = [];
   while (walker.nextNode()) nodes.push(walker.currentNode);
   nodes.forEach((node) => {
-    if (!originalText.has(node)) originalText.set(node, node.nodeValue);
-    const original = originalText.get(node);
+    const currentSource = normalizeSource(node.nodeValue);
+    const original = originalText.get(node) || currentSource;
+    originalText.set(node, normalizeSource(original));
     const leading = original.match(/^\s*/)[0];
     const trailing = original.match(/\s*$/)[0];
-    const key = original.trim();
+    const key = normalizeSource(original.trim());
     node.nodeValue = `${leading}${translateValue(key, lang)}${trailing}`;
   });
 
@@ -306,7 +377,7 @@ function translatePage(lang) {
     ["placeholder", "aria-label"].forEach((attr) => {
       if (!element.hasAttribute(attr)) return;
       const dataKey = `original${attr.replace("-", "")}`;
-      if (!element.dataset[dataKey]) element.dataset[dataKey] = element.getAttribute(attr);
+      element.dataset[dataKey] = normalizeSource(element.dataset[dataKey] || element.getAttribute(attr));
       element.setAttribute(attr, translateValue(element.dataset[dataKey], lang));
     });
   });
